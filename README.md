@@ -1,9 +1,11 @@
-# Datatable-component
-Get data from the API and implement the Datatable component
+# Datatable-component React.js
+##### Implementation of the Datatable component on React.js. 
+##### The output of the data from the API
 
 
-#### Preview
-[DataTableComponent](https://romarios1987.github.io/Datatable-component/)
+
+#### Deploy on ...
+[Preview](https://romarios1987.github.io/datatable-react-component/)
 
 
 

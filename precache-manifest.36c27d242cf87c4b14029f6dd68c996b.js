@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/datatable-react-component/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "fde43679b0955ce9e2ec",
+    "revision": "c7f8e47514c69ffb7e07",
     "url": "/datatable-react-component/static/css/main.a1361509.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/datatable-react-component/static/js/2.0af08696.chunk.js"
   },
   {
-    "revision": "fde43679b0955ce9e2ec",
-    "url": "/datatable-react-component/static/js/main.fde43679.chunk.js"
+    "revision": "c7f8e47514c69ffb7e07",
+    "url": "/datatable-react-component/static/js/main.c7f8e475.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/datatable-react-component/static/css/2.b8becdae.chunk.css"
   },
   {
-    "revision": "2caf5c083517defcb2508833c390fd62",
+    "revision": "09103eac5f477e1391a7b2eaedaf9239",
     "url": "/datatable-react-component/index.html"
   }
 ];

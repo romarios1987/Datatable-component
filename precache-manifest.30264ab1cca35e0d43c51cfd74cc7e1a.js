@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/datatable-react-component/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "65278f70b9991bd8e2bf",
+    "revision": "fde43679b0955ce9e2ec",
     "url": "/datatable-react-component/static/css/main.a1361509.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/datatable-react-component/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "c4e2db34f43371ae040f",
-    "url": "/datatable-react-component/static/js/2.c4e2db34.chunk.js"
+    "revision": "0af0869696551f0d43e5",
+    "url": "/datatable-react-component/static/js/2.0af08696.chunk.js"
   },
   {
-    "revision": "65278f70b9991bd8e2bf",
-    "url": "/datatable-react-component/static/js/main.65278f70.chunk.js"
+    "revision": "fde43679b0955ce9e2ec",
+    "url": "/datatable-react-component/static/js/main.fde43679.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/datatable-react-component/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "c4e2db34f43371ae040f",
+    "revision": "0af0869696551f0d43e5",
     "url": "/datatable-react-component/static/css/2.b8becdae.chunk.css"
   },
   {
-    "revision": "71b156129c523d3a88105b3d8e118aef",
+    "revision": "2caf5c083517defcb2508833c390fd62",
     "url": "/datatable-react-component/index.html"
   }
 ];

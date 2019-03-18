@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
+import {getAllPhones} from "../services";
 import {paginate} from "../utils/paginate";
 import _ from "lodash";
-import axios from 'axios';
 import SearchBox from "./SearchBox";
 import Pagination from "./Pagination";
 import PhonesTable from "./PhonesTable";
 
-const apiPhones = 'https://romarios1987.github.io/phone-catalog/api/phones.json';
 
 class Phones extends Component {
 
@@ -24,7 +23,7 @@ class Phones extends Component {
   };
 
   async componentDidMount() {
-    const {data: phones} = await axios.get(apiPhones);
+    const {data: phones} = await getAllPhones();
     this.setState({phones})
   }
 
@@ -47,11 +46,6 @@ class Phones extends Component {
   handleSearch = (query) => {
     this.setState({searchQuery: query, currentPage: 1})
   };
-
-
-  getPhone(id) {
-    return this.phones.find(phone => phone.id === id);
-  }
 
 
   getPagedData = () => {

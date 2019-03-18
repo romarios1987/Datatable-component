@@ -17,7 +17,7 @@ class TableBody extends Component {
 
   render() {
     const {data, columns} = this.props;
-    console.log(columns);
+
     return (
           <tbody>
           {data.map((item) =>
@@ -26,7 +26,8 @@ class TableBody extends Component {
                         <td
                               key={this.createKey(item, column)}>
                           {
-                            column.path === 'imageUrl' ? <img src={this.renderCell(item, column)} alt={ item.name} width={75}/> : this.renderCell(item, column)
+                            column.path === 'imageUrl' ? <img src={this.renderCell(item, column)} alt={item.name}
+                                                              width={75}/> : this.renderCell(item, column)
                           }
                         </td>
                   )}

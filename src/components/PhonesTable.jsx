@@ -6,18 +6,21 @@ import Like from "./Like";
 class PhonesTable extends Component {
 
   columns = [
-    {path: 'imageUrl', label: 'Image'},
+    {path: 'imageUrl', label: 'Image', sort: false},
+
     {
       path: 'name',
       label: 'Phone name',
+      sort: true,
       content: (phone) => <Link to={`/phones/${phone.id}`}>{phone.name}</Link>
     },
 
-    {path: 'age', label: 'Age'},
+    {path: 'age', label: 'Age', sort: true},
 
     {
       key: 'like',
       label: 'Like',
+      sort: false,
       content: (phone) =>
             <Like
                   onClick={() => this.props.onLike(phone)}

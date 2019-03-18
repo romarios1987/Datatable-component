@@ -1,25 +1,46 @@
 import React, {Component} from 'react';
 
+import {getPhoneById} from "../services";
 
-//const detailsPhone = 'https://romarios1987.github.io/phone-catalog/api/phones/';
 
 class DetailsPhone extends Component {
 
-  componentDidMount() {
 
-    //const phoneId = this.props.match.params.id;
+  state = {
+    phoneDetails: {},
+    error: ''
+  };
 
+  async componentDidMount() {
 
-    //const phone = getPhone(phoneId);
-   //if (!phone) return this.props.history.replace("/not-found");
-
+    await this.showDetailsPhone();
 
   }
 
+  showDetailsPhone = async () => {
+
+    const phoneId = this.props.match.params.id;
+
+    try {
+      const phoneDetails = await getPhoneById(phoneId);
+      this.setState({phoneDetails: phoneDetails.data});
+    } catch (err) {
+      this.setState({error: 'Нет такого тавара'});
+    }
+
+  };
+
+
   render() {
+    const {name} = this.state.phoneDetails;
+    const {error} = this.state;
+
+    const res = !error ? name : error;
+
+    console.log(this.state.phoneDetails);
     return (
           <div>
-
+            {res}
           </div>
     );
   }
